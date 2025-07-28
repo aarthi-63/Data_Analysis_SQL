@@ -129,17 +129,17 @@ group by [date]) as sales
 
 -- Q3. Determine the top 3 most ordered pizza types based on revenue for each pizza category.
 
-select category,pizza_type_id,revenue,
-		rank() over (partition by category order by revenue desc) as rn 
-from
- (select category, p.pizza_type_id,name,
+with revenue_total as (select category, p.pizza_type_id,name,
 		sum(price*quantity) as Revenue
 from pizza_types pt 
 inner join pizzas p on p.pizza_type_id=pt.pizza_type_id
 inner join order_details od on od.pizza_id=p.pizza_id
-group by category,p.pizza_type_id,name) as revenue_total
-where rn <= 3;
+group by category,p.pizza_type_id,name),
 
+rank_order as (select *,
+		rank() over (partition by category order by revenue desc) as rn 
+from revenue_total)
 
+select * from rank_order where rn<=3;
 
 --__________________________________________________________________________END__________________________________________________________________________
