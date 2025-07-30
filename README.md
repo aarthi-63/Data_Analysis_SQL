@@ -6,7 +6,9 @@ Each file demonstrates various analytical techniques, including data cleaning, t
 # Objectives
 
 **Data Cleaning** : Identify and remove any records with missing or null values.
+
 **Exploratory Data Analysis (EDA)** : Perform basic exploratory data analysis to understand the dataset.
+
 **Business Analysis** : Use SQL to answer specific business questions and derive insights from the sales data.
 
 # Conclusion
