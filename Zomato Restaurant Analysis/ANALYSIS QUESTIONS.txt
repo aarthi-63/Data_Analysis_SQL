@@ -1,0 +1,34 @@
+                            ZOMATO RESTAURANTS ANALYSIS
+
+
+ANALYSIS QUESTIONS
+
+Q1. Get overall statistics for the Indian restaurant market.
+
+Q2. Top 10 Indian cities with number of restaurant, average rating, average cost
+
+Q3. Understand pricing segments and their relationship with ratings in India.
+
+Q4. Compare restaurant types based on service offerings in India.
+	Online Delivery vs Dine-in Analysis
+
+Q5. Identify top 15 most popular cuisine types and their performance metrics in India.
+
+Q6. Compare budget vs premium restaurant segments in India
+
+Q7. City-wise Rating Distribution in Top 5 Indian Cities
+
+Q8. Compare average dining costs across different countries
+
+Q9. Analyze digital service adoption across Indian cities 
+
+Q10. Top Rated Restaurants in India with High Vote Count
+
+Q11. India vs Other Countries - Service Features Comparison
+
+Q12. Market Penetration Analysis - India vs International 
+    - Compare Zomato's market presence and performance across key countries.
+    - 'India', 'United States', 'UAE', 'Singapore', 'Australia'
+
+Q13. Cuisine Diversity Analysis by Indian Cities
+    - Measure culinary diversity across Indian cities.
